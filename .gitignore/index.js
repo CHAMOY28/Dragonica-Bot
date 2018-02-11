@@ -50,19 +50,6 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
-    if (message.content === "!infovoleur"){
-        var voleur_embed = new Discord.RichEmbed()
-         .setColor('#9201BC')
-         .setTitle("Information sur la Classe Voleur:")
-         .setDescription(" - Attaque                       ★★★★                                                                                                                                      - Défense                        ★★★                                                                                                                                  - Vitesse D'Attaque    ★★★★                                                                                                                                 - Portée D'Attaque    ★★★★★                                                                                                                                - Force Physique            ★★★                                                                                                                                    - Puissance Magique      ★★")
-         .addField("Arbre d'évolution du Voleur:","Niv.1     |                   Voleur                   |                                                                                                                                  Niv.20 |    Assassin    |    Acrobate    |                                                                                                                                  Niv.40 |       Ninja       |     Arlequin     |                                                                                                                                  Niv.60 |      Ombre      |    Voltigeur    |")
-    message.channel.sendEmbed(voleur_embed);
-        //message.channel.sendMessage("Voici les informations sur la classe Archer:");
-    console.log('ping pong');
-    }
-});
-
-bot.on('message', message => {
     if (message.content === "!infomagicien"){
         var magicien_embed = new Discord.RichEmbed()
          .setColor('#01CCB1')
